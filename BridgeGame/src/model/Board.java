@@ -58,7 +58,7 @@ public class Board {
 	}
 	
 	public void parsingMap() {
-		// map 파일 파싱해서 cellArray에 전부 맞게 집어 넣어라!
+		// map 파일 파싱해서 cellArray에 전부 맞게 집어 넣음
 		System.out.println("parsingMap");
 		int result[] = calcMapBoundary();
 		int currentX=0;
@@ -213,7 +213,6 @@ public class Board {
 		return new int[] {minRow,minCol,maxRow,maxCol};
 	}
 	
-
 	public Cell[][] getCellArray() {
 		return cellArray;
 	}

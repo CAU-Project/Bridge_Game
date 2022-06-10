@@ -32,7 +32,6 @@ public class Cell {
 		this.type = type;
 	}
 	
-	
 
 	public void setBackwardDirection(int backwardDirection) {
 		this.backwardDirection = backwardDirection;

@@ -3,13 +3,10 @@ package model;
 public class Die {
 	private int faceValue;
 	
-	public Die() {
-		
-	}
 	
-	public void rollDie() {
+	public int rollDie() {
 		faceValue = (int)(Math.random()*6)+1;
-		System.out.printf("주사위 결과 : %d\n",faceValue);
+		return faceValue;
 	}
 
 	public int getFaceValue() {
